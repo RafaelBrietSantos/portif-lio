@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional - Briet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Briet</h1>
+            </div>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Briet. Trago da minha experiência como ex-atleta profissional de voleibol a disciplina, a resiliência e a mentalidade de alto rendimento focada em objetivos, qualidades que hoje direciono integralmente para a tecnologia.</p>
+            <p>Atualmente, estou iniciando uma nova trajetória profissional com foco em desenvolvimento backend, aplicando lógica analítica na resolução de problemas complexos e manipulação de dados. Fora dos códigos, mantenho o espírito competitivo nos e-sports através do Valorant e dedico tempo ao aprimoramento do meu inglês por meio de imersão contínua na cultura tech.</p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação</h2>
+            <div class="formacao-item">
+                <h3>Graduação</h3>
+                <p><strong>Bacharelado em Engenharia de Software</strong><br>Centro Universitário Internacional (UNINTER) | Em andamento</p>
+            </div>
+            <div class="formacao-item">
+                <h3>Cursos Complementares</h3>
+                <ul>
+                    <li>Programação Python Completa (Luiz Otávio Miranda - Udemy)</li>
+                    <li>Banco de Dados e Consultas SQL</li>
+                    <li>Controle de Versão com Git e GitHub</li>
+                    <li>Língua Inglesa — CNA & Imersão Avançada</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            
+            <article class="projeto">
+                <h3>Growth Tracker</h3>
+                <p>Um ecossistema completo de gerenciamento e rastreamento de metas desenvolvido em Python. O sistema utiliza persistência de dados estruturada em arquivos JSON, permitindo um acompanhamento preciso de métricas e evolução pessoal.</p>
+                <a href="https://github.com/RafaelBrietSantos/growth-tracker-python" target="_blank" class="btn-projeto">Acessar Repositório no GitHub</a>
+            </article>
+
+            <article class="projeto">
+                <h3>Jogo de Pedra, Papel e Tesoura</h3>
+                <p>Este é um projeto simples de um jogo de Pedra, Papel e Tesoura, desenvolvido em Python.</p>
+                <a href="https://github.com/RafaelBrietSantos/jogo-pedra-papel-tesoura" target="_blank" class="btn-projeto">Acessar Repositório no GitHub</a>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato para oportunidades, parcerias ou projetos.</p>
+            
+            <form id="formContato">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail Corporativo:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                </div>
+
+                <button type="submit" id="btnEnviar">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafael Briet dos Santos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
